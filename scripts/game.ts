@@ -1,6 +1,6 @@
 
 (function () {
-    //Change to deploy
+    //Change to deploy again
     let canvas: HTMLCanvasElement;
     let stage: createjs.Stage;
     let manager: createjs.LoadQueue;
