@@ -1,4 +1,5 @@
 (function () {
+    //Change to deploy
     let canvas;
     let stage;
     let manager;
