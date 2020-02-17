@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAFA</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="./Content/styles.css">
+</head>
+<body>
+    
+    <div id="container">
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <input id="playerBet" type="text">
+</div>
+
+    <!--JavaScript Section-->
+
+
+    <!-- 3rd party Libraries -->
+    <script src="./node_modules/easeljs/lib/easeljs.min.js"></script>
+    <script src="./node_modules/tweenjs/lib/tweenjs.min.js"></script>
+    <script src="./node_modules/soundjs/lib/soundjs.min.js"></script>
+    <script src="./node_modules/preloadjs/lib/preloadjs.min.js"></script>
+           <!-- Config -->
+    
+    <script src="./scripts/config/scene.js"></script>
+    <script src="./scripts/config/constants.js"></script>
+
+    <!-- Managers -->
+    <script src="./scripts/managers/game.js"></script>
+
+    <!-- Game Objects -->
+    <script src="./scripts/objects/gameObject.js"></script>    
+    <script src="./scripts/objects/scene.js"></script>
+    <script src="./scripts/objects/background.js"></script>
+    <script src="./scripts/objects/roll.js"></script>
+    <script src="./scripts/objects/label.js"></script>
+    <script src="./scripts/objects/button.js"></script>
+
+    <!-- Scenes -->
+    <script src="./scripts/scenes/spin.js"></script>
+    <script src="./scripts/scenes/start.js"></script>
+    <script src="./scripts/scenes/GameOver.js"></script>
+
+    <!-- Core Game Scripts -->
+    <script src="./scripts/game.js"></script>
+</body>
+</html>
