@@ -46,7 +46,7 @@ module scenes {
             }
         }
 
-        private Reels(): string[] {
+        private Rolling(): string[] {
             {
                 var betLine = [" ", " ", " "];
                 var outCome = [0, 0, 0];
@@ -195,13 +195,13 @@ module scenes {
         }
         
         private Quit(event: createjs.MouseEvent = null): void {
-            managers.Game.currentState = config.Scene.START;
+            managers.Game.currentState = config.Scene.GAMEOVER;
             this.Destroy();
         }
 
         /* When the player clicks the spin button the game kicks off */
         private Spin(event: createjs.MouseEvent): void {
-            this._spinResult = this.Reels();
+            this._spinResult = this.Rolling();
             // method to display results on reel
             this.DisplayResults();
             this.DetermineWinnings();
